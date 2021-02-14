@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+get ${1:varname}
+]]></content>
+	<tabTrigger>get</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

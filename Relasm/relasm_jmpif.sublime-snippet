@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+jmpif ${1:nametag}
+]]></content>
+	<tabTrigger>jmi</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

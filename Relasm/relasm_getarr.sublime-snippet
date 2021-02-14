@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+getarr
+]]></content>
+	<tabTrigger>ga</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

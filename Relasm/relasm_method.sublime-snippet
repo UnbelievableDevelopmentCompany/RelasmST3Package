@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+method ${1:public} ${2:static} ${3:ClassName}.${4:MethodName}(${5:}):
+	${6:;code..}
+]]></content>
+	<tabTrigger>met</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

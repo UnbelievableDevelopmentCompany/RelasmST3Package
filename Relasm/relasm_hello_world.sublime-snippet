@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+mclass ${1:MainClass}
+method ${2:public} ${3:void} ${4:MainClass}.${5:Main}(${6:})
+	push.str "${7:hello world}"
+	callm ${8:std} ${9:static} ${10:Relax.Console}.${11:Write}(${12:Relax.String})
+]]></content>
+	<tabTrigger>hello world</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

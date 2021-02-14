@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+push.str "${1:hello world}"
+]]></content>
+	<tabTrigger>pushstr</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>
