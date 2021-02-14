@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
 mclass ${1:MainClass}
-method ${2:public} ${3:void} ${4:MainClass}.${5:Main}(${6:})
-	push.str "${7:hello world}"
-	callm ${8:std} ${9:static} ${10:Relax.Console}.${11:Write}(${12:Relax.String})
+method ${2:public} ${3:static} ${3:void} ${4:MainClass}.${5:Main}(${6:}):
+	.maxstack ${7:1}
+	push.str "${8:hello world}"
+	callm ${9:std} ${10:static} ${11:Relax.Console}.${12:Write}(${13:Relax.String})
 ]]></content>
 	<tabTrigger>hello world</tabTrigger>
 	<scope>source.relasm</scope>

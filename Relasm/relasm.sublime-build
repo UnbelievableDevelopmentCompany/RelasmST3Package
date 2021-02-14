@@ -1,0 +1,5 @@
+{
+	"shell": true,
+	"cmd": ["Relasm", "$file", "program.ree", "&&", "start", "cmd", "/k", "RelaxVM", "program.ree"],
+	"selector": "source.relasm"
+}

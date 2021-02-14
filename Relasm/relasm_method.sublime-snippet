@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 method ${1:public} ${2:static} ${3:void} ${4:ClassName}.${5:MethodName}(${6:}):
-	${7:;code..}
+	.maxstack ${7:0}
+	${8:;code..}
 ]]></content>
 	<tabTrigger>met</tabTrigger>
 	<scope>source.relasm</scope>
