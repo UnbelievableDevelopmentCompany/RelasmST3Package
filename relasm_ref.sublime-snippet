@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+ref ${1:Relax.Object}
+]]></content>
+	<tabTrigger>ref</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

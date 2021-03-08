@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+deref
+]]></content>
+	<tabTrigger>dr</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>

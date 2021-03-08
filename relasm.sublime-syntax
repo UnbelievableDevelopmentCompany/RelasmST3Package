@@ -22,8 +22,11 @@ contexts:
     # strings in YAML. When using single quoted strings, only single quotes
     # need to be escaped: this is done by using two single quotes next to each
     # other.
-    - match: '\b(mclass|class|method|push.str|push.int32|push.float|push.bool|get|set|local|return|new|callm|dup|add|div|sub|mul|jmp|jmpif|gc|newarr|setarr|getarr|cast|maxstack)\b'
+    - match: '\b(void|mclass|class|method|push.str|push.int32|push.float|push.bool|get|set|local|return|new|callm|dup|add|div|sub|mul|jmp|jmpif|gc|newarr|setarr|getarr|cast|maxstack|setpd|ref|deref)\b'
       scope: keyword.control
+
+    - match: '\b(import)\b'
+      scope: entity.name
 
     - match: '\b(public|static|instance|private|protected|std|usr)\b'
       scope: variable.function

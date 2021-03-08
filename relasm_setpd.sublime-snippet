@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+setpd
+]]></content>
+	<tabTrigger>spd</tabTrigger>
+	<scope>source.relasm</scope>
+</snippet>
