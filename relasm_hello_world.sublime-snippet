@@ -4,7 +4,7 @@ mclass ${1:MainClass}
 method ${2:public} ${3:static} ${4:void} ${5:MainClass}.${6:Main}(${7:}):
 	.maxstack ${8:1}
 	push.str "${9:hello world}"
-	callm ${10:std} ${11:static} ${12:Relax.Console}.${13:Write}(${14:Relax.String})
+	callm ${11:static} ${12:Relax.Console}.${13:Write}(${14:Relax.String})
 ]]></content>
 	<tabTrigger>hello world</tabTrigger>
 	<scope>source.relasm</scope>

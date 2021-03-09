@@ -28,7 +28,7 @@ contexts:
     - match: '\b(import)\b'
       scope: entity.name
 
-    - match: '\b(public|static|instance|private|protected|std|usr)\b'
+    - match: '\b(public|static|instance|private|protected)\b'
       scope: variable.function
 
     - match: '\b(-)?[0-9.]+\b'
