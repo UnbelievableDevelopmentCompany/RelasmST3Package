@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-callm ${1:static} ${2:Relax.Console}.${3:Write}(${4:})
+callm ${1:static} ${2:Relax}.${3:Console}.${4:Print}(${5:Relax}.${6:String})
 ]]></content>
 	<tabTrigger>cm</tabTrigger>
 	<scope>source.relasm</scope>

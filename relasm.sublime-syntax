@@ -16,7 +16,7 @@ contexts:
       push: line_comment
 
     
-    - match: '\b(void|mclass|class|method|push.str|push.int32|push.float|push.bool|get|set|local|return|new|callm|dup|add|div|sub|mul|jmp|jmpif|gc|newarr|setarr|getarr|cast|maxstack|setpd|ref|deref|field|getfield|setfield|this|ce|cl|cb|cle|cbe)\b'
+    - match: '\b(namespace|void|mclass|class|method|push.str|push.int32|push.float|push.bool|get|set|local|return|new|callm|dup|add|div|sub|mul|jmp|jmpif|gc|newarr|setarr|getarr|cast|maxstack|setpd|ref|deref|field|getfield|setfield|this|ce|cl|cb|cle|cbe)\b'
       scope: keyword.control
 
     - match: '\b(import)\b'
